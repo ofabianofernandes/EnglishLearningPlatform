@@ -1,50 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vocabulary Building</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <title>Vocabulário - Plataforma de Aprendizado de Inglês</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
-    <h1>Vocabulary Building Exercises</h1>
-    <p>Expand your vocabulary with these exercises:</p>
+    <header>
+        <h1>Plataforma de Aprendizado de Inglês</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="grammar.html">Gramática</a></li>
+                <li><a href="vocabulary.html">Vocabulário</a></li>
+                <li><a href="reading.html">Leitura</a></li>
+                <li><a href="listening.html">Listening</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>Define the Words</h2>
-    <p>Write the definition of each word:</p>
-    <ul>
-        <li>1. *Aberration* - ____________________</li>
-        <li>2. *Cacophony* - ____________________</li>
-        <li>3. *Ebullient* - ____________________</li>
-    </ul>
+    <main>
+        <h2>Vocabulário</h2>
+        <p>Aprenda e pratique novas palavras em inglês.</p>
+        
+        <!-- Novo botão e container para exercícios gerados pela API -->
+        <button id="generate-exercise">Gerar Exercício de Vocabulário</button>
+        <div id="exercise-container"></div>
 
-    <h2>Use in Sentences</h2>
-    <p>Use the following words in a sentence:</p>
-    <ul>
-        <li>1. *Eloquent* - ____________________</li>
-        <li>2. *Resilient* - ____________________</li>
-        <li>3. *Transient* - ____________________</li>
-    </ul>
+        <!-- Seu conteúdo existente de vocabulário aqui -->
+    </main>
 
-    <h2>Match the Words with Their Meanings</h2>
-    <p>Match the words with the correct meanings:</p>
-    <table>
-        <tr>
-            <td>1. *Meticulous*</td>
-            <td>A. Fearless, bold</td>
-        </tr>
-        <tr>
-            <td>2. *Intrepid*</td>
-            <td>B. Showing great attention to detail</td>
-        </tr>
-        <tr>
-            <td>3. *Amiable*</td>
-            <td>C. Friendly, good-natured</td>
-        </tr>
-    </table>
+    <footer>
+        <p>&copy; 2024 Plataforma de Aprendizado de Inglês</p>
+    </footer>
 
-    <p><a href="index.html">Back to Home</a></p>
-    <p><a href="grammar.html">Go to Grammar Exercises</a></p>
+    <script src="scripts.js"></script>
 </body>
 </html>
