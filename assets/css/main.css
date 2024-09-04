@@ -1,0 +1,26 @@
+/* Custom Styling for English Learning Platform */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F4F4F9;
+  color: #333;
+}
+
+header {
+  background-color: #E0162B;  /* Color from your logo */
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #0067B2;  /* Another color from your logo */
+}
+
+a {
+  color: #E0162B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+}
